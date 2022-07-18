@@ -1,0 +1,23 @@
+{
+  "name": "plaspi",
+  "version": "0.0.1",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "raw-loader": "^4.0.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
